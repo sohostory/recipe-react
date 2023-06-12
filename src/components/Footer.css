@@ -1,0 +1,28 @@
+footer {
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  margin-top: 100px;
+  height: 150px;
+  width: 100%;
+  background-color: #3f3f3f;
+  box-sizing: border-box;
+}
+
+.social-icons {
+  display: flex;
+  gap: 5px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: hsl(var(--secondary-color));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

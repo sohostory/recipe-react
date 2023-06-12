@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  align-items: center;
+  background-color: orange;
+  padding: 0px 50px;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
+}
+
+button {
+  background: none;
+  border: none;
+  color: whitesmoke;
+  font-size: 15px;
+}
+
+button:hover {
+  color: white;
+  cursor: pointer;
+}
