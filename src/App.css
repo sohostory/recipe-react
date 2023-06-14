@@ -116,3 +116,13 @@ body,
 textarea {
   font-family: "Inter", sans-serif;
 }
+
+.App {
+  position: relative;
+  top: 0;
+  min-height: 100vh;
+}
+
+main {
+  padding-bottom: 200px;
+}

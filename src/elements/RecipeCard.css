@@ -31,6 +31,9 @@ button {
   font-size: 20px;
   border: none;
   border-radius: 3px;
+}
+
+.blue-btn {
   --color: hsl(var(--secondary-color));
   background-color: var(--color);
   color: white;

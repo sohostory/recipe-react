@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 
 import DetailImage from "./DetailImage";
+import "./Details.css";
 
 const DetailScreen = () => {
   const { id } = useParams();

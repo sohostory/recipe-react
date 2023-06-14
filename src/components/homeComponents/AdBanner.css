@@ -18,3 +18,18 @@
   text-align: center;
   gap: 10px;
 }
+
+h1 {
+  --color: hsl(var(--primary-color), var(--l));
+  font-size: 64px;
+  color: var(--color);
+}
+
+h2 {
+  color: black;
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}

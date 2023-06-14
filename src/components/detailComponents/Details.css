@@ -11,6 +11,19 @@
   margin-bottom: 30px;
 }
 
+.details-container {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.details-container h2 {
+  color: black;
+  text-align: center;
+}
+
 .ad-text {
   width: 880px;
   display: flex;
@@ -18,4 +31,20 @@
   align-items: center;
   text-align: center;
   gap: 10px;
+}
+
+.instruction-container {
+  max-width: 550px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
+  padding: 12px;
+  border-radius: 3px;
+}
+
+.ingredients-container {
+  width: 300px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
+  padding: 12px;
+  border-radius: 3px;
 }
