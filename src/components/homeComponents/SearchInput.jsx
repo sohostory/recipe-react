@@ -13,15 +13,24 @@ const SearchInput = ({ recipes }) => {
       return title.includes(searchParams);
     })
     .map((recipe, index) => {
-      return <RecipeCard recipe={recipe} />;
+      return <RecipeCard key={recipe.id} recipe={recipe} />;
     });
+
+  const handleSearch = (event) => {
+    setSearch(event.target.value);
+  };
 
   return (
     <section className="recipe-section">
       <h2>Search a recipe!</h2>
       <span className="search-bar">
         <BiSearchAlt2 size="2em" color="#DA7635" />
-        <input type="text" value="" placeholder="Search for a Recipe" />
+        <input
+          type="text"
+          value={search}
+          onChange={handleSearch}
+          placeholder="Search for a Recipe"
+        />
       </span>
       <div className="recipe-container">
         {recipeDisplay ? recipeDisplay : <h2>No Recipes :</h2>}

@@ -7,6 +7,7 @@ const RecipeCard = ({ recipe }) => {
   const handleClick = () => {
     navigate(`/recipe/${recipe.recipe_id}`);
   };
+
   return (
     <div className="recipe-card">
       <div>
@@ -15,7 +16,9 @@ const RecipeCard = ({ recipe }) => {
         </div>
         <h3>{recipe.recipe_name}</h3>
       </div>
-      <button onClick={handleClick}>See More</button>
+      <button className="blue-btn" onClick={handleClick}>
+        See More
+      </button>
     </div>
   );
 };
